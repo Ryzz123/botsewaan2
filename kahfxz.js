@@ -2067,39 +2067,8 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 hisoka.sendMedia(m.chat, anu.link, '', m)
             }
             break
-	        case 'tiktok': case 'tiktoknowm': {
-                if (!text) throw 'Masukkan Query Link!'
-                replay(mess.wait)
-                anu = await fetchJson(`http://hadi-api.herokuapp.com/api/tiktok?url=${text}`)
-              let message = await prepareWAMessageMedia({ video : { url: anu.result.video.nowm } }, { upload:   hisoka.waUploadToServer })
-               const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            videoMessage: message.videoMessage,
-                            hydratedContentText: `Download From ${text}`,
-                            hydratedFooterText: `Audio & Wm Klick button belowâ˜•`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'Source Code Vidio',
-                                    url: `${text}`
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'â–º With Watermark',
-                                    id: `tiktokwm ${text}`
-                                    }
-                                },{quickReplyButton: {
-                                    displayText: 'â™« Audio',
-                                    id: `tiktokmp3 ${text}`
-                                }
-                            }]
-                        }
-                    }
-                }), { userJid: m.chat, quoted: m })
-                  hisoka.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
-            break
-case 'tiktokk': {
+	        
+case 'tiktok': case 'tiktoknowm': {
                 if (!text) throw 'Masukkan Query Link!'
                 let anu = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=HanBotzApi&url=${text}`)
                 let buttons = [
