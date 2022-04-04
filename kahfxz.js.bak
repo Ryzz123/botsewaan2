@@ -2099,6 +2099,12 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                   hisoka.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
             break
+             case 'tiktokkk': {
+	if (!text) throw `link nya mana`
+	let anu = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=HanBotzApi&url=${text}`)
+	hisoka.sendMessage(m.chat, { video: { url: anu.result.link } }, { quoted: m })
+	}
+	break
             case 'tiktokwm': case 'tiktokwatermark': {
                 if (!text) throw 'Masukkan Query Link!'
                 reply(mess.wait)
