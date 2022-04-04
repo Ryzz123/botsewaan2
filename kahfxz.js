@@ -1237,7 +1237,7 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 819-0641-2862'
                                 }
                             }, {
                                 quickReplyButton: {
