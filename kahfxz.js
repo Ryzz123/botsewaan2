@@ -1153,7 +1153,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
+                                    displayText: 'MY GITHUB',
                                     url: 'https://github.com/Ryzz123'
                                 }
                             }, {
@@ -1163,8 +1163,8 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
+                                    displayText: 'S E W A',
+                                    id: 'sewa'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1173,8 +1173,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'M E N U',
+                                    id: 'menu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -2989,7 +2989,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
 └───❑`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'S C R I P T',
+                                    displayText: 'MY GITHUB',
                                     url: 'https://github.com/Ryzz123'
                                 }
                             }, {
@@ -3001,6 +3001,11 @@ User Total : *${Object.keys(global.db.data.users).length}*
                                 quickReplyButton: {
                                     displayText: 'Contact Owner',
                                     id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'M E N U',
+                                    id: 'command'
                                 }  
                             }]
                             kahfs = fs.readFileSync('media/KahfzXzy.mp4')
@@ -3148,7 +3153,7 @@ let sectionnya= [{
 						]
 hisoka.sendList(m.chat, `Halo ${pushname}`, `───❑ INFO BOT
 
-LIBRAY:  *BAILEYS MD*`, "RyzBotz_0", "List Bor ", sectionnya, { quoted: m})
+LIBRAY:  *BAILEYS MD*`, "RyzBotz_0", " L I S T ", sectionnya, { quoted: m})
 break
 case 'grupmenu': {
 	            anu = `
