@@ -2193,6 +2193,11 @@ case 'tiktok': case 'tiktoknowm': {
                 hisoka.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
             break
+                case 'darkjoke': {
+                let anu = (`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=HanBotzApi`)
+                hisoka.sendMessage(m.chat, { image: { url: anu }, caption: `DarkJoke` }, { quoted: m })
+            }
+	    break
 	        case 'fbdl': case 'fb': case 'facebook': {
                 if (!text) throw 'Masukkan Query Link!'
                 reply(mess.wait)
