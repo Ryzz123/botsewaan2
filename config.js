@@ -34,12 +34,12 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    wait: 'Loading...tod..sabar!',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 20
 }
 global.thumb = fs.readFileSync('./media/kahfz.jpg')
 
