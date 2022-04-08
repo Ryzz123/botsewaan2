@@ -13,16 +13,16 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'RyzzBotz_0',
+	'https://zenzapi.xyz': 'Your Key',
 }
 
 // Other
-global.owner = ['6281906412862']
-global.web = 'https://youtube.com/channel/UCDsOg1EiXBMMCsKI85QzrOQ'
-global.bot = 'RyzzBotz'
-global.premium = ['6281906412862']
-global.packname = 'RyzzBotz'
-global.author = 'RyzzBotz'
+global.owner = ['6281906412862','6285163627306']
+global.web = 'https://youtube.com/channel/UCyXaMC3Q77U1pNZED73DaGQ'
+global.bot = 'ArltStore'
+global.premium = ['6281906412862','6285163627306']
+global.packname = 'ArltStore'
+global.author = 'ArltStore'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -34,12 +34,12 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...tod..sabar!',
+    wait: 'Loading...... !',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 20
+    free: 25
 }
 global.thumb = fs.readFileSync('./media/kahfz.jpg')
 
